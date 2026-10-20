@@ -6,14 +6,29 @@
 [ext_resource type="PackedScene" uid="uid://c4evgsrgxssxn" path="res://apple.tscn" id="4_asled"]
 [ext_resource type="PackedScene" uid="uid://dnftpk8p6wpc6" path="res://orange.tscn" id="5_ildj8"]
 
+[ext_resource type="PackedScene" uid="uid://txpdsqrh32qk" path="res://hanako.tscn" id="4_1u75a"]
+
+[ext_resource type="PackedScene" uid="uid://lnb6otiwxfys" path="res://taro.tscn" id="4_1u75a"]
+
+
 [node name="MyWorld" unique_id=1137961271 instance=ExtResource("1_cery3")]
 script = ExtResource("2_1u75a")
 
 [node name="Sprite2D" parent="." index="0" unique_id=1597890546]
 texture = ExtResource("3_asled")
 
+
 [node name="APPLE" parent="." index="2" unique_id=1239789849 instance=ExtResource("4_asled")]
 position = Vector2(221, 238)
 
 [node name="ORANGE" parent="." index="3" unique_id=1933178186 instance=ExtResource("5_ildj8")]
 position = Vector2(141, 258)
+
+
+[node name="HANAKO" parent="." index="2" unique_id=1239789849 instance=ExtResource("4_1u75a")]
+position = Vector2(291, 270)
+
+[node name="Taro" parent="." index="2" unique_id=1239789849 instance=ExtResource("4_1u75a")]
+position = Vector2(750, 231)
+
+
