@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c4e2u1pet2347"]
+
+[ext_resource type="Script" uid="uid://vdw6tip8eeg1" path="res://title.gd" id="2_3xoar"]
+[ext_resource type="Texture2D" uid="uid://cu8r7k323oo07" path="res://img/MyWorld.jpg" id="3_mom7w"]
+[ext_resource type="PackedScene" uid="uid://6o7fxp26ru0v" path="res://world.tscn" id="res://world.tscn"]
+
+[node name="Title" unique_id=1137961271 instance=ExtResource("res://world.tscn")]
+script = ExtResource("2_3xoar")
+
+[node name="Sprite2D" parent="." index="0" unique_id=1597890546]
+texture = ExtResource("3_mom7w")
+
+[node name="Label" parent="CanvasLayer" parent_id_path=PackedInt32Array(1596799062) index="0" unique_id=358788487]
+offset_left = 219.0
+offset_top = 346.0
+offset_right = 577.0
+offset_bottom = 434.0
+text = "Enterで開始"
